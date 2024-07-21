@@ -1,0 +1,73 @@
+Found 7 test(s).
+System check identified no issues (0 silenced).
+
+test_DurationValidator
+
+test_habit_create
+{
+  'id': 3,
+  'duration': '00:02:00',
+  'period': 3,
+  'place': '─юьр',
+  'time': '2024-05-27T08:40:00',
+  'action': '╤·хёЄ№ ър°є',
+  'is_pleasant': False,
+  'reward': '┬√яшЄ№ ъюЇх',
+  'is_public': True,
+  'owner': 2,
+  'related_habit': None,
+  'users': [
+    2
+  ]
+}
+
+test_habit_delete
+
+test_habit_list
+{
+  'count': 1,
+  'next': None,
+  'previous': None,
+  'results': [
+    {
+      'id': 5,
+      'duration': '00:01:00',
+      'period': 1,
+      'place': '─юьр',
+      'time': '2024-05-27T08:05:00',
+      'action': '┬√яшЄ№ ёЄрърэ тюф√',
+      'is_pleasant': False,
+      'reward': '╧юуырфшЄ№ ёюсрўъє',
+      'is_public': True,
+      'owner': 4,
+      'related_habit': None,
+      'users': []
+    }
+  ]
+}
+
+test_habit_update
+
+test_habits_retrieve
+
+test_user_create
+{
+  'id': 8,
+  'password': 'pbkdf2_sha256$720000$Dpl3T46FTWjNSnBHtfj8RN$qkgwfa+tPwMXkI0DIZyNMgSa4UUckvK75bygabN6UP0=',
+  'is_superuser': False,
+  'first_name': '',
+  'last_name': '',
+  'is_staff': False,
+  'date_joined': '2024-07-21T14:57:04.770601',
+  'email': 'alena.odinecz2013@yandex.ru',
+  'phone': None,
+  'telegram_chat_id': None,
+  'country': None,
+  'city': None,
+  'avatar': None,
+  'verification_code': None,
+  'last_login': None,
+  'is_active': True,
+  'groups': [],
+  'user_permissions': []
+}
